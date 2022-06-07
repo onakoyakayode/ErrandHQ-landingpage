@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+}
+
+/*Container padding*/
+.container {
+    padding: 20px 70px;
+}
+
+/*Head*/
+header {
+    width: 100%;
+    min-height: 100vh;
+}
+
+/*Navigation + Logo*/
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*Nav-items*/
+.navlist ul {
+    display: flex;
+    margin-left: 250px;
+}
+
+/*Nav-items list*/
+.navlist ul li {
+    list-style: none;
+    margin-left: 30px;
+}
+
+/*Nav-items list anchor*/
+.navlist ul li a {
+    text-decoration: none;
+    color: #444444;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+
+/*get-started button*/
+.get-started {
+    padding: 7px 28px;
+    background: linear-gradient(267.98deg, #84CFBB 6.31%, #8CDEAE 99.03%);
+    border-radius: 100px;
+    list-style: none;
+}
+
+/*get-started anchor*/
+.get-started li a {
+    text-decoration: none;
+    color: #444444;
+    font-family: 'Lato', sans-serif;
+}
+
+
+/*Logo*/
+.logo {
+    width: 70px;
+    height: 70px;
+}
+
+/*Logo img*/
+.logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/*main-header with image*/
+.main-header {
+    margin: 70px 0 150px 0;
+    padding: 0 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+
+
+/*main-header column 1*/
+.send-errand {
+    position: relative;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    align-content: space-between;
+}
+
+
+/*main-header heading*/
+.send-errand h2 {
+    font-size: 3rem;
+    padding: 0 30px 0 0;
+    font-family: 'Lato', sans-serif;
+}
+
+/*ErrandHQ text-filled color*/
+.a1 h2 span {
+    background: -webkit-linear-gradient(#84CFBB 6.31%, #8CDEAE 99.03%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/*main-header get-started button*/
+.a1 button {
+    margin-top: 62px;
+    color: #444444;
+    background: linear-gradient(#84CFBB 6.31%, #8CDEAE 99.03%);
+    padding: 10px 40px;
+    border-radius: 100px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    font-size: 20px;
+    line-height: 30px;
+    opacity: 1;
+}
+
+.a1 button:hover {
+    opacity: 0.9;
+}
+
+
+/*ellipse behind send-errand*/
+.ellipse1 {
+    position: absolute;
+    z-index: -10;
+    right: 10px;
+    top: 10px;
+    width: 50%;
+}
+
+
+/*main-header column 2*/
+.iphone-image {
+    position: relative;
+    width: 60%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+/*iphone back view*/
+.iphone-rear-view {
+    position: absolute;
+    left: 0;
+    z-index: -10;
+    width: 70%;
+    height: auto;
+}
+
+
+/*iphone back view image*/
+.iphone-rear-view img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/*iphone shadow*/
+.shadow {
+    position: absolute;
+    background-image: url('./Images/Shadow.png');
+    height: 100px;
+    width: 40vw;
+    right: -17%;
+    bottom: 10px;
+    z-index: -20;
+}
+
+
+/*iphone front view*/
+.iphone-right-view {
+    position: absolute;
+    left: 30px;
+    top: -15px;
+    width: 120%;
+    height: fit-content;
+}
+
+
+/*iphone front view image*/
+.iphone-right-view img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/*ellipse behind iphone*/
+.ellipse5 {
+    position: absolute;
+    width: 110%;
+    left: 70px;
+    z-index: -12;
+}
+
+
+/*Partner & Users*/
+.partners-users {
+    padding: 0 20px;
+    position: relative;
+    display: flex;
+    gap: 25%;
+    align-items: center;
+}
+
+
+/*partner & user display*/
+.partners-users h1 {
+    display: flex;
+}
+
+/*partner & user text*/
+.partners-users h1 {
+    font-size: 50px;
+    line-height: 60px;
+    color: #212121;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+/*partner & user span*/
+.partners-users span {
+    margin-left: 20px;
+    padding-bottom: 20px;
+    font-size: 25px;
+    color: #C0C0C0;
+    font-weight: 500;
+}
+
+/*ellipse behind 10+*/
+.ellipse3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 60px;
+    z-index: -1;
+}
+
+/*ellipse image behind 10+*/
+.ellipse3 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/*ellipse image behind 5K+*/
+.ellipse4 {
+    position: absolute;
+    top: 0;
+    left: 47.5%;
+    width: 60px;
+    height: 60px;
+    z-index: -1;
+}
+
+/*ellipse image behind 5K+*/
+.ellipse4 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/*dashed line*/
+.dashed-line {
+    width: 70%;
+    margin: auto 0 50px auto;
+}
+
+/*dashed line img*/
+.dashed-line img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/*footer*/
+.footer {
+    display: flex;
+    gap: 6rem;
+}
+
+/*footer display*/
+.fast-service,
+.safe-delivery,
+.support {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*footer image*/
+.fast-service img,
+.safe-delivery img,
+.support img {
+    width: 70px;
+    margin-bottom: 20px;
+}
+
+
+/*footer sub-title*/
+.footer h3 {
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    color: #000000;
+    margin-bottom: 18px;
+}
+
+/*footer paragraph*/
+.footer p {
+    font-size: 18px;
+    line-height: 21px;
+    color: #9A9A9A;
+}

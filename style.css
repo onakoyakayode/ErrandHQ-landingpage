@@ -31,9 +31,6 @@ header {
     align-items: center;
 }
 
-nav .logo {
-
-}
 /*Nav-items*/
 .navlist ul {
     display: flex;

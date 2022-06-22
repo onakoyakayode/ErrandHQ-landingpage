@@ -8,9 +8,16 @@
     <title>Errand-HQ</title>
     <link rel="icon" href="./Images/WhatsApp Image 2022-05-22 at 9.00 1.png" type="image/x-icon">
     
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@6.4.8/swiper-bundle.min.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    
 
     <link rel="stylesheet" href="style.css">
+
+
+      <!-- Swiper JS -->
+      <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 </head>
 <body>
     <header>
@@ -19,19 +26,21 @@
                 <div class="logo">
                     <img src="./Images/WhatsApp Image 2022-05-22 at 9.00 1.png" alt="Errand-HQ Logo">
                 </div>
-                <div class="navlist">
-                    <ul>
-                        <li><a href="">Home</a></li>
-                        <li><a href="">About</a></li>
-                        <li><a href="">Features</a></li>
-                        <li><a href="">Contact Us</a></li>
-                        
-                    </ul>
-                </div>
+    
+                <ul class="navlist">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Features</a></li>
+                    <li><a href="">Contact Us</a></li>
+                    
+                </ul>
                 <div class="get-started">
                     <li><a href="">Get Started</a></li>
                 </div>
 
+                <div class="toggle-btn">
+                    <img src="./Images/toggle-bar.png" alt="toggle-btn">
+                </div>
             </nav>
 
             <div class="main-header">
@@ -68,7 +77,7 @@
                     </div>
                     
                 </div>
-                <div class="user">
+                <div class="trusted-user">
                     <h1>5K+ <span>Trusted Users</span></h1>
                     <div class="ellipse4">
                         <img src="./Images/Ellipse 4.png" alt="ellipse3">
@@ -79,7 +88,7 @@
         
     </header>
 
-    <div class="dashed-line">
+    <div class="dashed-line01">
         <img src="./Images/Line 2.png" alt="dashed-line">
     </div>
 
@@ -150,7 +159,7 @@
         </div>
     </div>
 
-    <div class="dashed-line">
+    <div class="dashed-line02">
         <img src="./Images/Line 2.png" alt="dashed-line">
     </div>
 
@@ -263,7 +272,7 @@
 
 
         <!-- Swiper -->
-        <div class="swiper mySwiper">
+        <div class="swiper mySwiper swiper-container">
             <div class="swiper-wrapper">
             <div class="swiper-slide">
                 <div class="card-content">
@@ -467,9 +476,9 @@
         
     </footer>
 
-    <!-- Swiper JS -->
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+      
     <script src="app.js"></script>
+    <script src="swipper.js"></script>
     
 </body>
 </html>

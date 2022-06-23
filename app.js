@@ -13,7 +13,7 @@ toggleBtn.addEventListener('click', (e) => {
 
 
   if (getStarted.style.left === "-100%") {
-    getStarted.style.left = "31%"
+    getStarted.style.left = "28%"
   } else {
     getStarted.style.left = "-100%"
   }

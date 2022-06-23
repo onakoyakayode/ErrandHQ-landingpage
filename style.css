@@ -383,6 +383,7 @@ header {
         top: -18px;
         width: 95%;
         height: fit-content;
+        z-index: 1;
     }
 }
 
